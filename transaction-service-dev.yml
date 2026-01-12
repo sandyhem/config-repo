@@ -1,0 +1,14 @@
+global:
+  message: Welcome to transaction service dev environment!!
+server:
+  port: 8084
+message: Hello from transaction Dev!
+spring:
+  datasource:
+     url: jdbc:h2:mem:transaction_dev
+     username: root
+     password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
